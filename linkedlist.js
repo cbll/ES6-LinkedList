@@ -12,14 +12,14 @@ class LinkedList {
     };
 
     addToHead = (value) => {
-        var newNode = new Node(value, this.head, null);
+        const newNode = new Node(value, this.head, null);
         if (this.head) this.head.prev = newNode;
         else this.tail = newNode;
         this.head = newNode;
     };
 
     addToTail = (value) => {
-        var newNode = new Node(value, null, this.tail);
+        const newNode = new Node(value, null, this.tail);
         if (this.tail) this.tail.next = newNode;
         else this.head = newNode;
         this.tail = newNode;
@@ -27,7 +27,7 @@ class LinkedList {
 
     removeHead = () => {
         if (!this.head) return null;
-        var val = this.head.value;
+        const val = this.head.value;
         this.head = this.head.next;
         if (this.head) this.head.prev = null;
         else this.tail = null;
@@ -36,7 +36,7 @@ class LinkedList {
 
     removeTail = () => {
         if (!this.tail) return null;
-        var val = this.tail.value;
+        const val = this.tail.value;
         this.tail = this.tail.prev;
         if (this.tail) this.tail.next = null;
         else this.head = null;
@@ -44,7 +44,7 @@ class LinkedList {
     };
 
     search = (searchVal) => {
-        var currentNode = this.head;
+        const currentNode = this.head;
         while (currentNode) {
             if (currentNode.value === searchVal) return currentNode.value;
             currentNode = currentNode.next;
@@ -53,9 +53,9 @@ class LinkedList {
     };
 
     indexOf = (value) => {
-        var indexes = [];
-        var currentIndex = 0;
-        var currentNode = this.head;
+        let indexes = [];
+        let currentIndex = 0;
+        const currentNode = this.head;
         while(currentNode) {
             if (currentNode.value === value) indexes.push(currentIndex);
             currentNode = currentNode.next;
