@@ -19,8 +19,8 @@
       <file leaf-file-name="linkedlist.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linkedlist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            <state relative-caret-position="190">
+              <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -458,7 +458,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496438922859</updated>
-      <workItem from="1496438928564" duration="209000" />
+      <workItem from="1496438928564" duration="402000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed indentation">
       <created>1496439066794</created>
@@ -467,11 +467,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496439066794</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Var --&gt; const/let">
+      <created>1496439145304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496439145304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209000" />
+    <option name="totallyTimeSpent" value="402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -509,7 +516,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed indentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed indentation" />
+    <MESSAGE value="Var --&gt; const/let" />
+    <option name="LAST_COMMIT_MESSAGE" value="Var --&gt; const/let" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -518,8 +526,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/linkedlist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="190">
+          <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
           <folding />
         </state>
       </provider>
